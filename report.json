@@ -1,0 +1,77 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "test-issue-|-xray;calculate-sum-of-2-numbers",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Calculate sum of 2 numbers",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "numbers 3 and 5",
+            "match": {
+              "location": "file:/home/arnesfield/code/self/work/cucumber-xray-jira/features/steps/add.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 616180
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "added",
+            "match": {
+              "location": "file:/home/arnesfield/code/self/work/cucumber-xray-jira/features/steps/add.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81450
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "get sum of 8",
+            "match": {
+              "location": "file:/home/arnesfield/code/self/work/cucumber-xray-jira/features/steps/add.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75927
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REQ_XSP-60",
+            "line": 1
+          },
+          {
+            "name": "@TEST_XSP-61",
+            "line": 5
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-issue-|-xray",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Test Issue | Xray",
+    "tags": [
+      {
+        "name": "@REQ_XSP-60",
+        "line": 1
+      }
+    ],
+    "uri": "features/1_XSP-60.feature"
+  }
+]

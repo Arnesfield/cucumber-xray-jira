@@ -1,0 +1,17 @@
+{
+  "name": "cucumber-xray-jira",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "cucumber-js -f json:report.json"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.8.0"
+  }
+}
